@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+
+    <title>A Pen by  Shaan Trika</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!DOCTYPE html>
+
+<head>
+  <title>Shaan's Notes</title>
+</head>
+  
+<body>
+  <div style="color:#00008B">
+<h1>Unit 1: The Basics of the Web</h1>
+  </div>
+<b>What does it consist of?</b>
+<p>The web consists of HTML, URL's, HTTP, and Web Applications that all interact with each other to create a systematic every-day internet. </p>
+
+<b>The World Wide Web</b>
+<br>
+
+<p>HTML stands for Hypertext Markup Lanugage. To link pages, you use something called a hyperlink, and the internet has more than 30 billion webpages. Request from pages are made from your computer to servers by the protocol of HTTP, which is why we see that at the beginning of any link to any website. HTML is made up of text content, markup, images, videos, and links to other pages.
+</p>
+
+<b>Tag Content and Examples</b>
+<br>
+<p>Tags look like this: <(Name of Tag)> Contents <(Name of Tag)>
+  <br>
+  Some examples are: The tag b provides bold letters. The tag em makes letters appear in italics. Links are defined using the (a) anchor tag, using href as an attribute. The images tag is img, the p tag is the paragraph tag, and the br tag is the "line break" tag, which is used to separate two lines when needed. Tags are also known as inline, or block. Block tags put an "invisible box" around your text.</p>
+  <b>HTML Structure</b>
+  <br>
+  <p>HTML starts with a doctype, followed by the html tag which surrounds the document, the head and other meta-data, and last but not least comes the body tag. Overall, HTML has a very organized and neat structure, making it easy to learn for many people.</p>
+<h2>Section 2: Creating a Structured Document</h2>
+
+<b>A Summary of HTML</b>
+<p>The internet is made up of structure, style, and components. HTML is the structure, while CSS composes the style. JavaScript includes interactive components and changes elements. In google chrome, click on the icon below the "x" in the top right corner, scroll down to developer tools and click on it. Doing this will show you the structure, HTML and CSS used in the webpage you are currently viewing.</p>
+<p>The internet has a tree-like structure. Right click on a website and click inspect element. The sideways triangles that you can see are HTML elements, and each one has an opening and closing tag. Inside this tag can be text, or even another tag or element. One thing to understand is that elements <em>can</em> be inside other elements. You can click on elements to see their CSS structure on the right side of the developer tools section of the page.</p>
+<p>HTML is a language of the web that has syntax and rules. The basic word of this language is a tag. The browser turns tags into elements that form a <em>tree</em>. The browser knows how to do this because of DOM. DOM is <b>Document Object Model</b>. This is a standard convention for representing and interacting with elements in HTML. Browsers build these DOM trees from HTML documents. Elements are created from the starting tag to the ending tag. These tags contain content. Tags can be empty, have text, or another element inside. Each tag can have attributes with values. CSS is another language that changes the page's style. You can apply style to HTML and give elements class attributes. You <em>should</em> name your classes to avoid confusion.</p>
+
+<h2>Section 3: Adding CSS Style and HTML Structure</h2>
+<p>To start off an HTML document, you need to add a single line at the start of the HTML file. This tells the browser that the type of document is an HTML document. Then add the top level HTML tag. Remember: <em>When you have a start tag, you <b>must</b> have an end tag</em>. Also, it is easier to read code if parts of the structure are indented. After adding the HTML tag, add a head tag. This is where you add the link to the style file. To add a link to the style file, start typing "link," then hit tab. Sublime Text 2 adds all information except for the name of the file that contains the style information. After the head tag, add the body tag. Within the body tag lays the HTML structure.</p>
+<p>CSS stands for Cascading Style Sheets. This is the code written to modify the elements, the letter "C" being the most important part of this acronym. You can have several CSS files or sheets that will be referenced in HTML, and all of them will be used to find out the style for a webpage.</p>
+<p>In CSS, you first write what is called a "selector." This defines what elements of the page a particular style will apply to. You can apply style to all elements on a page by selecting elements by class. If you want to write a style that applies to the class "description," you can do so by typing .description, and inside the brackets, you can write the style in the form attribute: value;, and you can also combine selectors. Finally, you can select all links inside an element with the class "article."</p>
+<p>There are <em>three ways</em> to include CSS styling in a web page. The first is to write CSS inside the head tag of your HTML. This is good for working with small projects in text editors like scratchpad.io. You can find the link to this text editor <a href="scratchpad.io"> here</a>. <br> The second way to go about writing CSS style in a web page is to link your HTML to a separate CSS file. To do this you will need to write all structural HTML in one file which can be named as something like "main.html." In a different file, place all of your CSS code. You can name the file you do this in something like "main.css." Make sure you add a head element to the top of the HTML and include a link tag inside of the head element. You don't need a closing tag for the "link" tag because it is what is called a void tag. Add these attributes to the (link tag placed here): rel=”stylesheet” type=”text/css” href=”main.css”. This is ideal for larger projects. A good text editor or something like this would be Sublime Text 2. The link to download it is <a href="http://www.sublimetext.com/2"> here</a>. <br> The third way to use CSS styling in a web page is to write your style inline with your HTML. This may be the easier way to go, but it is a bad idea since it leads to lots of repetitive code. Repetitive code is easy to make mistakes with, and it can get confusing sometimes. If code is repeating itself, to avoid confusion, the only way to stop this is to revise your work with full effort and stop the code from repeating or stop writing your CSS inline with your HTML. In this method of writing your CSS inline with your HTML, you modify the style attributes of every individual HTML element. </p>
+<p><b>Code Comments</b><br> Code comments are code that programmers use to leave notes for other people or themselves. These comments begin with a less than sign, followed by a question mark and two dashes. Inside these dashes are the notes the programmer wants to make. To end the comment, you must put two dashes followed by a greater than sign. Everything in between the dashes is ignored on the web page. In CSS, code comments begin with /* and end with */.</p>
+<p><b>What are HTML Elements, Really?</b> <br> HTML elements are boxes, and each box has four components. There are two techniques you can use to deal with sizing issues. One is to set sizes in terms of percentages rather than pixels. Other than that, you can set the box-sizing attribute to border-box for every element. Divs are block elements so they take up the entire width of a page. Adding the rule: display: flex; to the appropriate CSS will override this behavior and let divs appear next to each other. <br><br> <b>Flex Box Layout</b> <br> Flex box means <em>flexible box.</em> It provides an efficient way to lay out a line and distribute space among items in a container.</p>
+<p><b>Adding Images</b> <br> You can add an image to a web page by using the img tag and providing the source of the image. Also, provide the alt attribute, which gives alternate information in case the browser cannot display the image.</p>
+<p><b>Keys for Revising and Perfecting Your CSS</b> <br> Step 1: Look for natural boxes. <br> Step 2: Look for repeated styles and semantic elements. <br> Step 3: Write your HTML. <br> Step 4: Apply styles (from biggest to smallest). <br> Step 5: Fix things.</p>
+<p><b>Easy Layout Making</b> <br> *{ box-sizing: border-box; }. Of course in order to use this there has to be a space between the first bracket and the text, and the end of the text and the second bracket. Anyways, this CSS makes calculation of elements size include both border and padding so that it is easier to make layouts.</p>
+
+  </body>
+    
+    
+    
+    
+    
+  </body>
+</html>

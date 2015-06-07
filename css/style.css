@@ -1,0 +1,38 @@
+body
+{
+font-family: monospace;
+background: #fffef2;
+color: brown;
+line-height: normal;
+margin: 3% 25% 3% 25%;
+min-width: 400px;
+}
+
+div {
+text-align:center;
+}
+
+h2 {
+  color:darkgreen;
+  text-align:center;
+}
+
+h3{
+  color:darkgreen;
+  text-align:center;
+}
+
+b {
+  color:purple;
+  text-align:left
+}
+
+.bold
+{
+font-weight:bold;
+}
+
+body  {
+text-align:left;
+font-size:20px;
+}
